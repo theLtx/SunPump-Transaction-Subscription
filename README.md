@@ -11,3 +11,8 @@ We provide you a direct access to Tron SunPump transactions through Java-tron's 
 ````
 npm install zeromq@5
 ````
+
+# Run 
+````
+tsx connection.ts
+````
