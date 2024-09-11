@@ -1,9 +1,8 @@
-// subscriber.js
 var zmq = require("zeromq"),
 var sock = zmq.socket("sub");
 
-sock.connect("tcp://127.0.0.1:5555");
-sock.subscribe("block");
+sock.connect("tcp://xxx:5555");
+sock.subscribe("contractLog");
 console.log("Subscriber connected to port 5555");
 
 sock.on("message", function(topic, message) {
